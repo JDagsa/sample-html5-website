@@ -1,71 +1,47 @@
 body {
-    margin: 1em;
-}
-.card {
-    margin-bottom: 1em;
-}
-.thumbnail {
-    margin-bottom: 2em;;
-}
-.list-group {
-    margin-bottom: 2em;
-}
-.disable-hover {
-    pointer-events: none;
-}
-.link-item {
-    list-style-type: none;
-    padding: 17px 15px;
-    display: block;
-    color: #4f89bb !important;
-    text-align: left;
-}
-.link-item:hover {
-    border: 1px solid #ddd;
-    background-color: #f5f5f5;
-}
-
-html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
-    background-color: #fff;
-}
-
-html.can-touch .link-item:active{ /* disable hover effect when input is touch */
-    background-color: #f5f5f5;
-}
-
-.fa {
+    background-color: #EAF0F8;
+  }
+  
+  .button {
+    background-color: #EAF0F8;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
     font-size: 16px;
-    margin-left: 5px;
-    margin-right: 10px;
-}
+    padding: 10px 20px;
+  }
+  
+  .neumorphic-shadows {
+    -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+          box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+  }
+  
+  .neumorphic-shadows-hover:hover {
+    cursor: pointer;
+    -webkit-box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+          box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+  }
 
 @media (prefers-color-scheme: dark) {
     body {
-        background-color: #1f1f1f;
-        color: white;
-    }
-
-    .card-header {
-        background-color: #2f2f2f;
-    }
-    .card-body {
-        background-color: #1f1f1f;
-    }
-    .jumbotron {
-        background-color: #2f2f2f;
-    }
-
-    .list-group-item {
-        background-color: #1f1f1f;
-        border-color:  #2f2f2f;;
-    }
-
-    html.can-touch .link-item:hover{ /* disable hover effect when input is touch */
-        background-color: #1f1f1f;
-    }
-    
-    html.can-touch .link-item:active{ /* disable hover effect when input is touch */
-        background-color: #1f1f1f;
-    }
-
+        background-color: #192428;
+      }
+      
+      .button {
+        background-color: #192428;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        font-size: 16px;
+        padding: 10px 20px;
+      }
+      
+      .neumorphic-shadows {
+        -webkit-box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+              box-shadow: 3px 3px 6px #b8b9be, -3px -3px 6px #fff;
+      }
+      
+      .neumorphic-shadows-hover:hover {
+        cursor: pointer;
+        -webkit-box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+              box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
+      }
 }
