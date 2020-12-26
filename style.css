@@ -24,6 +24,7 @@ body {
 @media (prefers-color-scheme: dark) {
     body {
         background-color: #192428;
+        color: #ffffff;
       }
       
       .button {
