@@ -35,13 +35,13 @@ body {
       }
       
       .neumorphic-shadows {
-        -webkit-box-shadow: 3px 3px 6px #2f2f31, -3px -3px 6px #b8b9be;
-              box-shadow: 3px 3px 6px #2f2f31, -3px -3px 6px #b8b9be;
+        -webkit-box-shadow: 3px 3px 6px #2f2f31, -3px -3px 6px #707175;
+              box-shadow: 3px 3px 6px #2f2f31, -3px -3px 6px #707175;
       }
       
       .neumorphic-shadows-hover:hover {
         cursor: pointer;
-        -webkit-box-shadow: inset 2px 2px 5px #2f2f31, inset -3px -3px 7px #b8b9be;
-              box-shadow: inset 2px 2px 5px #2f2f31, inset -3px -3px 7px #b8b9be;
+        -webkit-box-shadow: inset 2px 2px 5px #2f2f31, inset -3px -3px 7px #707175;
+              box-shadow: inset 2px 2px 5px #2f2f31, inset -3px -3px 7px #707175;
       }
 }
